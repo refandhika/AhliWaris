@@ -3,4 +3,19 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="title">Masukkan Nilai Warisan</string>
+    <string name="help">Hal pertama yang harus dilakukan dalam faroidh adalah menghitung jumlah harta si mayit, memilih jenis kelamin dan klik tombol next.</string>
+    <string name="title_warisan">Total Harga Warisan</string>
+    <string-array name="currency">
+        <item>Rp</item>
+        <item>$</item>
+    </string-array>
+    <string-array name="value">
+        <item>Ribu</item>
+        <item>Juta</item>
+        <item>Miliar</item>
+    </string-array>
+    <string name="title_jekel">Masukkan Jenis Kelamin</string>
+    <string name="radio_pria">Pria</string>
+    <string name="radio_perempuan">Perempuan</string>
 </resources>

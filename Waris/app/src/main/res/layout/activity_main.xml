@@ -8,7 +8,7 @@
     <TextView android:text="@string/title" android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView"
-        android:paddingBottom="20px"
+        android:paddingBottom="20dp"
         android:textSize="12pt"
         android:textStyle="bold"
         android:layout_alignParentTop="true"
@@ -17,14 +17,14 @@
     <TextView android:text="@string/help" android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView"
-        android:paddingBottom="20px"
+        android:paddingBottom="20dp"
         android:layout_alignParentStart="true"
         android:id="@+id/textView2" />
 
     <TextView android:text="@string/title_warisan" android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView3"
-        android:paddingBottom="20px"
+        android:paddingBottom="20dp"
         android:textSize="8pt"
         android:textStyle="bold"
         android:layout_below="@+id/textView2"
@@ -47,7 +47,7 @@
             android:layout_height="wrap_content"
             android:inputType="numberDecimal"
             android:ems="10"
-            android:id="@+id/editText" />
+            android:id="@+id/nominal" />
 
         <Spinner
             android:layout_width="40pt"
@@ -58,13 +58,14 @@
     <TextView android:text="@string/title_jekel" android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView4"
-        android:paddingBottom="20px"
+        android:paddingBottom="20dp"
         android:textSize="8pt"
         android:textStyle="bold"
         android:layout_below="@+id/linearLayout"
         android:layout_centerHorizontal="true" />
 
     <RadioGroup
+        android:id="@+id/jekel_radio"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView4"
@@ -80,5 +81,14 @@
             android:layout_height="wrap_content"
             android:text="@string/radio_perempuan"/>
     </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_next"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/linearLayout"
+        android:text="@string/button_next" />
+
 
 </RelativeLayout>
